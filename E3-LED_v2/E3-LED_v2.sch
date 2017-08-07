@@ -1808,7 +1808,6 @@ part number 2062-2P from STA</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
-<part name="R1" library="eagle-ltspice" deviceset="R" device="0204/7" value="DNP"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="5MM"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
@@ -1821,11 +1820,10 @@ part number 2062-2P from STA</description>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="R1" gate="G$1" x="83.82" y="99.06" rot="R90"/>
 <instance part="GND1" gate="1" x="83.82" y="86.36"/>
 <instance part="D1" gate="G$1" x="83.82" y="114.3"/>
 <instance part="J1" gate="G$1" x="50.8" y="96.52"/>
-<instance part="R2" gate="G$1" x="93.98" y="99.06" rot="R90"/>
+<instance part="R2" gate="G$1" x="83.82" y="99.06" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1847,27 +1845,19 @@ part number 2062-2P from STA</description>
 <wire x1="58.42" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="96.52" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="91.44" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="83.82" y1="88.9" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
 <junction x="83.82" y="91.44"/>
 <label x="58.42" y="96.52" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="91.44" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="91.44" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="83.82" y1="104.14" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="106.68" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="106.68" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
-<junction x="83.82" y="106.68"/>
+<wire x1="83.82" y1="109.22" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
