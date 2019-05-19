@@ -1,7 +1,7 @@
 E^3 LED
 ========================
 
-![E^3 LED](http://engineering3.org/wp-content/uploads/GitHub/E3_LED.jpg)
+![E^3 LED](https://engineering3.org/wp-content/uploads/GitHub/E3_LED.jpg)
 
 This is the LED board used with the Engineering^3 curriculum and RCM Control Stack. Please see [Engineering^3](http://engineering3.com/) for more information on the complete RCM Control Stack project.
 
